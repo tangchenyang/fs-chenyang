@@ -5,7 +5,7 @@ import streamlit as st
 from pathlib import Path
 HOME_PATH = Path.home()
 
-MARKDOWN_TEMPLATE = """{format}
+MARKDOWN_TEMPLATE = """```{format}
 {content}
 """
 if __name__ == '__main__':
