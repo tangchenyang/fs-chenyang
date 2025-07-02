@@ -26,7 +26,7 @@ if __name__ == '__main__':
         os.makedirs(os.path.dirname(file_full_path), exist_ok=True)
         with open(file_full_path, 'w') as f:
             f.write(input_text)
-            st.success(f"File '{file_name}' has been updated successfully.")
+            st.success(f"File '{file_full_path}' has been updated successfully.")
 
     if os.path.exists(file_full_path):
         with open(file_full_path, 'r') as f:
