@@ -9,6 +9,8 @@ MARKDOWN_TEMPLATE = """```{format}
 {content}
 """
 if __name__ == '__main__':
+
+    st.set_page_config(page_title="文本传输助手", layout="centered", page_icon="📃")
     # User
     st.markdown(f"# Configurations")
     username = st.text_input("Username", placeholder="Enter your username")
